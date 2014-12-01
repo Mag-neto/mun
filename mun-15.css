@@ -128,7 +128,7 @@ ul li {
 		margin : 0px 0px 0px 0px 0px;
 		padding-top : 0px 0px 0px 0px;
 		height: 700px;
-		background-color: #2ecc71;
+
 		}
 .heading_about_mun {
 		margin : 0px 0px 0px 0px;
@@ -168,7 +168,6 @@ ul li {
 		margin: 0px 0px 0px 0px;
 		padding  : 0px 0px 0px 0px;
 		width:100%;
-		height: 700px;
 		background-color: white;
 		
 		}
@@ -186,45 +185,44 @@ ul li {
 #comm_block {
 	width : 100%;
 	height: 400px;
-	padding: 0px 50px 0px 50px;
+	padding: 0px 0px 0px 0px;
 	
 	}
 #first_comm {
-	 border: 1px solid white;
-	border-radius: 20px;
-	
+
 	 }
 #second_comm {
-		border: 1px solid white;
-		border-radius: 20px;
-		
-		}
-#third_comm {
-
-		border: 1px solid white;
-		border-radius: 20px;
+		text-align: center;
 	
 		}
-img#UNDP {
-		padding  : 10px 10px 10px 50px;
-		height: 400px;
-		width: 300px;
+#third_comm {
 		
 		}
+img#UNDP {
+		padding  : 0px 0px 0px 0px;
+		height: 250px;
+		width: 250px;
+		border: 1px solid white;
+		border-radius: 200px;
+		}
 img#HRC {
-		padding  : 10px 10px 10px 50px;
-		height: 400px;
-		width: 300px;
+		padding  : 0px 0px 0px 0px;
+		height: 250px;
+		width: 250px;
+		border: 1px solid white;
+		border-radius: 300px;
+		
 	 }
 img#CSTD {
 		
-		padding  : 10px 10px 10px 50px;
-		height: 400px;
-		width: 300px;
+		padding  : 0px 0px 0px 0px;
+		height: 250px;
+		width: 250px;
+		border: 1px solid white;
+		border-radius: 200px;
 	  }
 #team {
 		height:300px;
-		background-color : rgba(22, 160, 133,1.0);
 	}
 	
 #apply {
@@ -232,7 +230,7 @@ img#CSTD {
 		width : 100%;
 		text-align: center;
 		padding-top: 100px;
-		/*background-color : rgba(44, 62, 80,1.0); */
+
 	}
 h3 {
 		font-size: 60px;
@@ -264,7 +262,7 @@ a.apply_btn:hover {
 				}
 #venue {
 		height:300px;
-		background-color : rgba(211, 84, 0,1.0);
+		
 		}
 @media (max-width: 500px) {         /* for mobile layout */
 	
@@ -334,7 +332,6 @@ ul li {
 		}
 #about_para {
 		
-		color: green;
 		text-align : left;
 		margin: 40px 0px 0px 0px;
 		padding : 20px 20px 10px 20px;
@@ -388,7 +385,7 @@ img.snip {
 #first_comm {
 		display : block;
 		width  : 100%;
-		text-align : center;
+		text-align : left;
 		padding : 0px 0px 0px 0px ;
 		margin: 0px 0px 0px 0px;
 		height: auto;
@@ -396,7 +393,7 @@ img.snip {
 #second_comm {
 		display : block;
 		width  : 100%;
-		text-align : center;
+		text-align : left;
 		padding : 0px 0px 0px 0px ;
 		margin: 0px 0px 0px 0px;
 		height: auto;
@@ -404,7 +401,7 @@ img.snip {
 #third_comm {
 		display : block;
 		width  : 100%;
-		text-align : center;
+		text-align : left;
 		padding : 0px 0px 0px 0px ;
 		height: auto;
 		}
@@ -413,19 +410,19 @@ img.snip {
 			padding: 0px 0px 0px 0px;
 			}
 img#UNDP {
-		position : relative;
+		
 		height: auto;
 		width: 200px;
 		
 		}
 img#HRC {
-		position : relative;
+		
 		height: auto;
 		width: 200px;
 	
 	 }
 img#CSTD {
-		position : relative;
+		
 		height: auto;
 		width: 200px;
 	  }
