@@ -34,7 +34,29 @@ $(document).ready(function () {
         // Scroll Up
             $('header').removeClass('nav-up').addClass('nav-down');
         }
-    
+		if($(this).scrollTop() > 3) {
+			$('.text').hide();
+			}
+		else{
+			$('.text').show();
+			}
 		lastScrollTop = st;
 	}
+	
+	var targets = [$('#about'), $('#committees'), $('#apply')];
+
+	for (var i = 0; i < targets.length; i++) {
+		watchForScroll(targets[i]);
+	}
+
+	function watchForScroll(target) {
+		var targetHeight = target.offset().top;
+		$(document).scroll(function (e) {
+        var scrollPercent = (targetHeight - window.scrollY) / targetHeight;
+        if (scrollPercent >= 0) {
+            target.css('opacity', 1 - scrollPercent);
+        }
+    });
+}
 });
+
