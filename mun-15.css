@@ -1,9 +1,10 @@
-html, body {height: 100%}
+html, body {height: 100%;}
 
 	body {
 		padding: 0px;
 		margin:0px;
 		font-family: sans-serif;
+		background-color: #ecf0f1;
 		}
 #welcome {
 		position: relative;
@@ -165,7 +166,6 @@ ul li {
 		margin: 0px 0px 0px 0px;
 		padding  : 0px 0px 0px 0px;
 		width:100%;
-		background-color: #3498db;
 		opacity: 0.1;
 		}
 #head_committees{
@@ -176,7 +176,13 @@ ul li {
 #comm_desc {
 		text-align: center;
 		font-size: 20px;
-		/*font-family: 'Roboto', sans-serif; */
+
+		}
+img.arrow {
+		opacity: 0.50;
+		position: relative;
+		margin: -20px 0px 0px 0px;
+		padding: 0px 0px 0px 20px;
 		
 		}
 #comm_block {
@@ -199,26 +205,26 @@ ul li {
 		}
 img#UNDP {
 		padding  : 0px 0px 0px 0px;
-		height: 250px;
+		height: 200px;
 		width: 250px;
 		border: 1px solid white;
-		border-radius: 200px;
+		border-radius: 2px;
 		}
 img#HRC {
 		padding  : 0px 0px 0px 0px;
-		height: 250px;
-		width: 250px;
+		height: 200px;
+		width: 300px;
 		border: 1px solid white;
-		border-radius: 300px;
+		border-radius: 2px;
 		
 	 }
 img#CSTD {
 		
 		padding  : 0px 0px 0px 0px;
-		height: 250px;
+		height: 200px;
 		width: 250px;
 		border: 1px solid white;
-		border-radius: 200px;
+		border-radius: 2px;
 	  }
 #team {
 		height:300px;
@@ -230,7 +236,7 @@ img#CSTD {
 		text-align: center;
 		padding-top: 100px;
 		opacity: 0.1;
-		background-color: #2ecc71;
+		
 	}
 h3 {
 		font-size: 60px;
@@ -289,29 +295,31 @@ header {
 		/*background-color : rgba(52, 73, 94,1.0); */
 		/*z-index : -1; */
 		}
-
+#header_venue ,
+#header_home ,
+#header_comm,
 #header_about {
 		display : none;
 		}
-#header_apply {
-		padding : 0px 0px 0px 0px;
-		}
-#header_logtag {
-		padding : 0px 60px 0px 10px;
-		}
-#header_comm {
-		display : none;
-		}
-#header_venue {
-		display : none;
-		}
-#header_home {
-		display : none;
-		}
+ul {
+	position: relative;
+	right: 20%;
+	left: -20%;
+	}
 ul li {
 		display : inline-block;
-		float : none;
 	  }
+	  
+#header_apply {
+		padding : 0px 0px 0px 0px;
+		
+		
+		}
+#header_logtag {
+		padding : 0px 50px 0px 0px;
+		
+		
+		}
 
 /*.table_block {
 		display: -webkit-flex; 
@@ -385,6 +393,7 @@ img.snip {
 #committees {
 		display : block;
 		height: auto;
+		opacity: 1;
 		}
 #comm_block {
 		display :block;
@@ -437,7 +446,7 @@ img#CSTD {
 	  }
 #apply {
 		height : auto;
-		background-color: white;
+		opacity: 1;
 		}
 h3 {
 	font-size : 40px;

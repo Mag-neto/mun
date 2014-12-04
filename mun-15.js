@@ -42,21 +42,23 @@ $(document).ready(function () {
 			}
 		lastScrollTop = st;
 	}
+	if($(window).width() > 600)                    // sets js don't work in mobile
+	{    
+		var targets = [$('#about'), $('#committees'), $('#apply')];
 	
-	var targets = [$('#about'), $('#committees'), $('#apply')];
+		for (var i = 0; i < targets.length; i++) {
+			watchForScroll(targets[i]);
+		}
 
-	for (var i = 0; i < targets.length; i++) {
-		watchForScroll(targets[i]);
+		function watchForScroll(target) {
+			var targetHeight = target.offset().top;
+			$(document).scroll(function (e) {
+			var scrollPercent = (targetHeight - window.scrollY) / targetHeight;
+			if (scrollPercent >= 0) {
+				target.css('opacity', 1 - scrollPercent);
+			}
+		});
+	  }
 	}
-
-	function watchForScroll(target) {
-		var targetHeight = target.offset().top;
-		$(document).scroll(function (e) {
-        var scrollPercent = (targetHeight - window.scrollY) / targetHeight;
-        if (scrollPercent >= 0) {
-            target.css('opacity', 1 - scrollPercent);
-        }
-    });
-}
 });
 
