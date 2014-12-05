@@ -3,7 +3,7 @@ html, body {height: 100%;}
 	body {
 		padding: 0px;
 		margin:0px;
-		font-family: sans-serif;
+		font-family: Times New Roman;
 		background-color: #ecf0f1;
 		}
 #welcome {
@@ -11,7 +11,7 @@ html, body {height: 100%;}
 		background: url(http://i.imgur.com/bDQhzdA.jpg) no-repeat;
 		background-size: cover;
 		background-attachment: fixed;
-		height : 643px;
+		height : 100vh;
 		width : 100%;
      }
 
@@ -125,7 +125,7 @@ ul li {
 #about {
 		margin : 0px 0px 0px 0px 0px;
 		padding-top : 0px 0px 0px 0px;
-		height: 700px;
+		height: 100vh;
 		opacity: 0.1;
 		}
 .heading_about_mun {
@@ -148,25 +148,26 @@ ul li {
 #about_first {
 		width : 30%;
 		/*border : 5px groove grey; */
-		padding: 50px 50px 0px 50px;
+		padding: 10px 50px 0px 50px;
 		
 		}
 #about_second {
 		width : 30%;
 		/*border : 5px groove grey; */
-		padding: 50px 50px 0px 50px;
+		padding: 10px 50px 0px 50px;
 	     }
 #about_third {
 		width : 30%;
 		/*border : 5px groove grey; */
-		padding: 50px 50px 0px 50px;
+		padding: 10px 50px 0px 50px;
 	     }
 
 #committees {
-		margin: 0px 0px 0px 0px;
+		margin: 40px 0px 0px 0px;
 		padding  : 0px 0px 0px 0px;
 		width:100%;
 		opacity: 0.1;
+		height: 80vh;                                                /* vh is viewport height */
 		}
 #head_committees{
 	color: black;
@@ -176,7 +177,7 @@ ul li {
 #comm_desc {
 		text-align: center;
 		font-size: 20px;
-
+		
 		}
 img.arrow {
 		opacity: 0.50;
@@ -188,20 +189,21 @@ img.arrow {
 #comm_block {
 	width : 100%;
 	height: 400px;
-	padding: 0px 0px 0px 0px;
-	
+	margin-top: 50px;
 	}
 #first_comm {
-		padding: 50px 50px 0px 50px;
+		padding: 100px 50px 0px 50px;
+		
 	 }
 #second_comm {
 		text-align: center;
-		padding: 50px 50px 0px 50px;
+		padding: 100px 50px 0px 50px;
+	
 	
 		}
 #third_comm {
-		padding: 50px 50px 0px 50px;
-		
+		padding: 100px 50px 0px 50px;
+
 		}
 img#UNDP {
 		padding  : 0px 0px 0px 0px;
@@ -231,7 +233,7 @@ img#CSTD {
 	}
 	
 #apply {
-		height:600px;
+		height:80vh;
 		width : 100%;
 		text-align: center;
 		padding-top: 100px;
@@ -269,8 +271,10 @@ a.apply_btn:hover {
 				color: black;
 				}
 #venue {
-		height:300px;
-		
+		height:100vh;
+		}
+p#venue_head {
+		font-size: 24px;
 		}
 @media (max-width: 500px) {         /* for mobile layout */
 	
@@ -453,6 +457,9 @@ h3 {
 	}
 #venue {
 		height : 200px;
+		}
+iframe {
+		display: none;
 		}
 #team {
 		height : 200px;
