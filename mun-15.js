@@ -44,7 +44,7 @@ $(document).ready(function () {
 	}
 	if($(window).width() > 600)                    // sets js don't work in mobile
 	{    
-		var targets = [$('#about'), $('#committees'), $('#apply')];
+		var targets = [$('#about'), $('#committees'), $('#apply'), $('#venue'), $('#team'), $('#contact')];
 	
 		for (var i = 0; i < targets.length; i++) {
 			watchForScroll(targets[i]);

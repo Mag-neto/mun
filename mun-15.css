@@ -198,8 +198,6 @@ img.arrow {
 #second_comm {
 		text-align: center;
 		padding: 100px 50px 0px 50px;
-	
-	
 		}
 #third_comm {
 		padding: 100px 50px 0px 50px;
@@ -228,9 +226,6 @@ img#CSTD {
 		border: 1px solid white;
 		border-radius: 2px;
 	  }
-#team {
-		height:300px;
-	}
 	
 #apply {
 		height:80vh;
@@ -272,6 +267,7 @@ a.apply_btn:hover {
 				}
 #venue {
 		height:100vh;
+		opacity: 0.1;
 		}
 #schedule1 {
 		float: right;
@@ -298,9 +294,67 @@ iframe {
 		 height: 100px;
 		 position: relative;
 		 margin: 0px 0px 0px 0px;
-		 padding: 0px 0px 0px 0px;
+		 padding: 0px 60px 0px 0px;
 		 opacity: 1;
 		 }
+#team {
+		height: 400px;
+		opacity: 0.1;
+		}
+#team_head {
+		 text-align: center;
+		 font-size: 24px;
+		 }
+#meet_team {
+		opacity: 1;
+		float: left;
+		margin-top: 0px;
+		margin-left: 50px;
+		
+		}
+#meet_team li {
+		display: inline-block;
+		margin: 0px;
+		padding: 70px;
+		}
+.member_img {
+		opacity: 1;
+		position: relative;
+		border: 1px solid white;
+		}
+
+#contact {
+		margin-top: 50px;
+		margin-bottom: 50px;
+		text-align: center;
+		height: 400px;
+		opacity: 0.1;
+		}
+#contact_head{
+		position : relative;
+		left: -50%;
+		}
+#address_mun {
+		height: 250px;
+		width: 400px;
+		background-color: #ecf0f1;
+		}
+#phone_mun{
+		height: 250px;
+		width: 400px;
+		background-color: #ecf0f1;
+		}
+
+#email_mun {
+		height: 250px;
+		width: 400px;
+		background-color: #ecf0f1;
+		}
+.contact_des {
+		margin-top: 70px;
+		}
+		
+			
 @media (max-width: 500px) {         /* for mobile layout */
 	
 #welcome_image {
