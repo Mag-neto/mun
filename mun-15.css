@@ -96,7 +96,7 @@ a:hover {
 	}
 ul {
 	padding-top: 20px 0px 0px 0px;
-	float : right;
+	
 	}
 ul li {
       display : inline;
@@ -289,7 +289,9 @@ iframe {
 		 border: 1px solid white;
 		 opacity: 1;
 		 }
-
+p.schedule_venue_place {
+			padding: 150px 0px 0px 50px;
+			}
 #time_img {
 		 height: 100px;
 		 position: relative;
@@ -333,22 +335,38 @@ iframe {
 #contact_head{
 		position : relative;
 		left: -50%;
+		margin-bottom: 30px;
 		}
 #address_mun {
 		height: 250px;
 		width: 400px;
 		background-color: #ecf0f1;
+		-webkit-transition: background-color 0.5s ease; /* For Safari and chrome */
+		transition: background-color 0.5s ease;
+		}
+#address_mun:hover {
+		background-color: #2ecc71;
 		}
 #phone_mun{
 		height: 250px;
 		width: 400px;
 		background-color: #ecf0f1;
+		-webkit-transition: background-color 0.5s ease; /* For Safari and chrome */
+		transition: background-color 0.5s ease;
+		}
+#phone_mun:hover {
+		background-color: #2ecc71;
 		}
 
 #email_mun {
 		height: 250px;
 		width: 400px;
 		background-color: #ecf0f1;
+		-webkit-transition: background-color 0.5s ease; /* For Safari and chrome */
+		transition: background-color 0.5s ease;
+		}
+#email_mun:hover {
+		 background-color: #2ecc71;
 		}
 .contact_des {
 		margin-top: 70px;
@@ -386,22 +404,23 @@ header {
 		}
 ul {
 	position: relative;
-	right: 20%;
-	left: -20%;
+	float: left;
+	padding: 0px 0px 0px 0px;
 	}
 ul li {
 		display : inline-block;
 	  }
 	  
 #header_apply {
-		padding : 0px 0px 0px 0px;
+		padding : 0px 20px 0px 20px;
 		
 		
 		}
 #header_logtag {
-		padding : 0px 50px 0px 0px;
-		
-		
+		padding : 0px 0px 0px 0px;
+		}
+#header_contact {
+		padding : 0px 0px 0px 0px;
 		}
 
 /*.table_block {
@@ -446,8 +465,6 @@ ul li {
 		width : 100%;
 		display:block;
 		padding: 0px 0px 0px 0px;
-		/*border : 5px groove grey; 
-		padding: 50px 50px 0px 50px; */
 		height: auto;
 		
 		}
@@ -455,7 +472,6 @@ ul li {
 		width : 100%;
 		display:block;
 		padding: 0px 0px 0px 0px;
-		/*border : 5px groove grey; */
 		height: auto;
 		
 	     }
@@ -477,6 +493,7 @@ img.snip {
 		display : block;
 		height: auto;
 		opacity: 1;
+		
 		}
 #comm_block {
 		display :block;
@@ -486,7 +503,7 @@ img.snip {
 		display : block;
 		width  : 100%;
 		text-align : left;
-		padding : 0px 0px 0px 0px ;
+		padding : 0px 0px 0px 10px ;
 		margin: 0px 0px 0px 0px;
 		height: auto;
 		}
@@ -494,7 +511,7 @@ img.snip {
 		display : block;
 		width  : 100%;
 		text-align : left;
-		padding : 0px 0px 0px 0px ;
+		padding : 0px 0px 0px 10px ;
 		margin: 0px 0px 0px 0px;
 		height: auto;
 		}
@@ -502,7 +519,7 @@ img.snip {
 		display : block;
 		width  : 100%;
 		text-align : left;
-		padding : 0px 0px 0px 0px ;
+		padding : 0px 0px 0px 10px ;
 		height: auto;
 		}
 img#UNDP {
@@ -510,7 +527,6 @@ img#UNDP {
 		padding: 0px 0px 0px 0px;
 		height: auto;
 		width: 200px;
-		
 		}
 img#HRC {
 		
@@ -535,12 +551,44 @@ h3 {
 	font-size : 40px;
 	}
 #venue {
-		height : 200px;
+		height : auto;
+		opacity: 1;
+		text-align: center;
 		}
-iframe {
+p.schedule_venue_place {
+		padding: 20px;
+		
+		}
+#schedule1{
 		display: none;
 		}
 #team {
-		height : 200px;
+		height : auto;
+		opacity: 1;
 		}
+#meet_team {
+		text-align: center;
+		}
+#meet_team li {
+		display: block;
+		margin: 0px;
+		padding: 10px 10px 10px 10px;
+		
+		}
+#contact {
+		opacity: 1;
+		display: block;
+		}
+#contact_head {
+		display: none;
+		}
+#phone_mun,
+#address_mun,
+#email_mun {
+		 display: block;
+		 width: 90%;
+		 height: 200px;
+		 margin: 10px;
+		 padding: 0px;
+		 }
 	}
